@@ -1,0 +1,118 @@
+/* Apply a global font and color scheme */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+    text-align: center;
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+  resize: none;
+}
+
+input[type="submit"] {
+  background-color: #ff3e00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #e63200;
+}
+
+
+
+
+/* Style the logo image */
+header img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  height: 100px;
+}
+
+/* Center all headers */
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+/* Center all paragraphs */
+p {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Center all images */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #90eeff;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin: 0 10px;
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #BBDEFB;
+}
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+img {
+  width: 1060px;
+  height: 540px;
+}
+p {
+
+}

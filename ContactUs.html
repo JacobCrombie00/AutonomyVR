@@ -1,0 +1,57 @@
+<?php
+if($_SERVER['REQUEST_METHOD'] === 'POST') {
+  // do any processing of form data here
+
+  // redirect to the same page
+  header('Location: ' . $_SERVER['PHP_SELF']);
+  exit;
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Autonomous Bar & Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <img src="logo.jpg" alt="The Autonomous Bar & Restaurant logo">
+        <h1>The Autonomous Bar, Restaurant and Virtual Reality Arcade</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Menu.html">How To</a></li>
+            <li><a href="FAQS.html">FAQs</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+      <h1>Contact Us</h1>
+      <p>Have any questions, feedback or tips you would like to share? Fill out the form below so we recieve your duely noted review!</p>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+     <footer>
+    <p>&copy; 2023 Autonomous Bar & Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
