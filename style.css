@@ -116,11 +116,13 @@ body {
     margin: 0 200px;
   }
 }
-@media only screen and (max-width: 767px) {
-  body {
-    zoom: 150%;
-  }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
+
 
 
 
