@@ -116,16 +116,16 @@ body {
   }
 }
 
-}
 
 
 img {
   width: 530px;
   height: 270px;
 }
+
 @media only screen and (min-width: 768px) {
   img {
     max-width: 65%;
-}
-
   }
+}
+  
