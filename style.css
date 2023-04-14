@@ -103,20 +103,19 @@ nav a {
 nav a:hover {
   color: #BBDEFB;
 }
+/* Set default margin for all screen sizes */
 body {
   margin-left: 200px;
   margin-right: 200px;
-  /* Set default margin for all screen sizes */
+}
 
 /* Set margin for mobile screens */
 @media only screen and (max-width: 767px) {
   body {
-    margin-left: 20px;
-  margin-right: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
-
-
 
 img {
   width: 530px;
