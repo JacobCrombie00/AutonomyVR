@@ -109,15 +109,14 @@ nav a:hover {
 
 body {
   margin: 0;
-  padding: 0 20px; /* add padding instead of margin */
 }
 
-/* Add media query for larger screens */
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
   body {
-    padding: 0 200px; /* reset the padding for larger screens */
+    margin: 0 200px;
   }
 }
+
 
 
 
