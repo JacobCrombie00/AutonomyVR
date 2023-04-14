@@ -117,8 +117,5 @@ img {
   img {
     max-width: 50%;
 }
-  /* Adjust margin for mobile screens */
-@media only screen and (max-width: 350px) {
-  .element {
-    margin: 2px;
+
   }
