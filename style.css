@@ -106,6 +106,15 @@ nav a:hover {
 body {
   margin-left: 200px;
   margin-right: 200px;
+  /* Set default margin for all screen sizes */
+
+/* Set margin for mobile screens */
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 20px;
+  }
+}
+
 }
 
 
