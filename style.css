@@ -112,8 +112,8 @@ body {
 /* Set margin for mobile screens */
 @media only screen and (max-width: 1000px) {
   body {
-    margin-left: 100 !important;
-    margin-right: 100 !important;
+    margin-left: 20 !important;
+    margin-right: 20 !important;
   }
 }
 
