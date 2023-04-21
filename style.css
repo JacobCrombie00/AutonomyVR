@@ -123,7 +123,7 @@ img {
   width: 530px;
   height: 270px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1200px) {
   img {
     max-width: 65%;
 }
